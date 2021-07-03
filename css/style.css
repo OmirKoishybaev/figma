@@ -1,0 +1,398 @@
+@import url(css/utility.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 100%;
+    height: 75px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10.28%;
+    top: 24px;
+}
+
+.logo h1 {
+    color: #173A56;
+    font-size: 35px;
+}
+
+.logo img {
+    height: 32px;
+}
+
+nav ul {
+    display: flex;
+    position: absolute;
+    right: 407px;
+    top: 44px;
+    justify-content: space-between;
+    width: 350px;
+}
+
+nav ul li {
+    font-size: 14px;
+    list-style: none;
+}
+
+.login-btns {
+    position: absolute;
+    right: 145px;
+    top: 25px;
+}
+
+.landing {
+    position: absolute;
+    top: 157px;
+    left: 10.28%;
+}
+
+.landing .landing-text {
+    padding-top: 75px;
+    color: #2F281E;
+    width: 518px;
+}
+
+.landing .landing-text h1 {
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.landing .landing-text p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+    margin-bottom: 45px;
+}
+
+.landing img {
+    width: 467px;
+}
+
+.landing .landing-btn {
+    width: 175px;
+    height: 53px;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FF9900;
+    ;
+}
+
+.watch-btn {
+    position: relative;
+    left: -36px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    width: 174px;
+    justify-content: space-between;
+    color: #FF9900;
+}
+
+.watch-btn i {
+    padding-right: 1.5rem;
+}
+
+.watch-btn a {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #FF9900;
+}
+
+.design .text-center {
+    position: absolute;
+    top: 715px;
+    left: 0;
+}
+
+.design .design-section {
+    position: absolute;
+    top: 888px;
+    background-image: url(img/Bg.png);
+    height: 389px;
+    left: 0;
+    block-size: cover;
+    padding: 0 10.28%;
+}
+
+.design .btn-now {
+    position: absolute;
+    top: 1149px;
+    display: flex;
+    justify-content: center;
+    left: 500px;
+}
+
+.design .icon-box {
+    height: 50px;
+    width: 50px;
+    border-radius: 19px;
+    background-color: #7752BE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 33px;
+}
+
+.design .icon2 {
+    background-color: #FF9900;
+}
+
+.design .icon3 {
+    background-color: #F03E3D;
+}
+
+.design .icon4 {
+    background-color: #4DADF7;
+}
+
+.design h1 {
+    font-size: 38px;
+    line-height: 54px;
+    color: black;
+}
+
+.design .box h3 {
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 13px;
+}
+
+.design .box p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 60px;
+}
+
+
+.design .btn-now button {
+    height: 53px;
+    width: 175px;
+    background-color: FF9900;
+    color: white;
+    font-size: 15px;
+    line-height: 24px;
+    border-radius: 4px;
+    position: relative;
+    right: 47px;
+}
+
+/* Pro section */
+.pro {
+    width: auto;
+    height: 389px;
+    position: absolute;
+    top: 1400px;
+    left: 0;
+    padding: 0 10.28%;
+}
+
+/* pro2 styling */
+.pro2 {
+    width: auto;
+    height: 389px;
+    position: absolute;
+    top: 2072px;
+    left: 0;
+    padding: 0 10.28%;
+}
+
+.pro2 .chek {
+    width: 60%;
+    margin: 15px 0;
+}
+
+.pro2 .chek img {
+    width: 35px;
+    height: 35px;
+    margin-right: 30px;
+}
+
+.pro2 h2 {
+    font-size: 36px;
+    font-size: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.por2 .chek span {
+    font-style: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.pro3 {
+    width: auto;
+    height: 389px;
+    position: absolute;
+    top: 2697px;
+    left: 0;
+    padding: 0 10.28%;
+}
+
+/* marketing section */
+.marketing {
+    width: 1890;
+    height: 835px;
+    position: absolute;
+    top: 3463px;
+    left: 0;
+    padding: 0 10.28%;
+    background-image: url(img/Oval.png);
+}
+
+.marketing .profile1 {
+    position: relative;
+    top: 222px;
+    left: 0px;
+}
+
+.marketing .profile2 {
+    position: absolute;
+    top: 116px;
+    left: 670px;
+}
+
+.marketing .profile3 {
+    position:  absolute;
+    top: 463px;
+    left: 160px;
+}
+
+.marketing .profile4 {
+    position:  absolute;
+    top: 561px;
+    left: 430px;
+}
+
+.marketing .profile5 {
+    position: absolute;
+    top: 439px;
+    left: 840px;
+}
+
+.marketing img {
+    width: 50px;
+    height: 50px;
+}
+
+.profile-text {
+    font-size: 11px;
+    background-color: rgb(153, 99, 99);
+    border-radius: 26.5px;
+    height: 37px;
+    width: 157px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -79px;
+    left: 30px;
+}
+
+.marketing .hero {
+    position: relative;
+    text-align: center;
+    top: 150px;
+    left: 210px;
+}
+
+.marketing .hero p {
+    line-height: 16px;
+}
+
+.marketing .btn-now {
+    position: absolute;
+    top: 350px;
+    left: 500px;
+}
+
+.strategy {
+    position: absolute;
+    top: 4200px;
+    width: 1107px;
+    height: 561px;
+}
+
+ .card1 {
+    position: absolute;
+    width: 350px;
+    height: 170px;
+    left: 10px;
+}
+
+.strategy .card2 {  
+    position: absolute;
+    width: px;
+    height: 170px;
+    left: 375px;
+}
+
+.strategy .card2 h3 {
+    position: absolute;  
+    color: #FF9900;
+}
+
+.strategy .card3 {
+    position: absolute;
+    width: 376px;
+    height: 170px;
+    left: 745px;
+}
+
+footer .logo {
+    position: relative;
+    top: 4800px;
+    left: 15px;
+}
+
+
+.quick {
+    position: absolute;
+    top: 4817px;
+    left: 350px;
+}
+
+.quick ul li { 
+    list-style-type: none
+}
+
+.legal {
+    position: absolute;
+    top: 4817px;
+    left: 600px;
+}
+
+.legal ul li {
+    list-style-type: none
+}
+
+.deal {
+    position: absolute;
+    top: 4817px;
+    left: 800px;
+}
+
+.deal h1 {
+    font-size: 25px;
+}
